@@ -1,0 +1,21 @@
+Directory Shell Scrips have the files to be executed from the linux command line.
+    1: Execute the server
+    2: Here you have 2 files, one for player1 and another for player2
+        You can execute both 1 time, or execute one of them 2 times to have 2 players.
+
+
+This is a chat game with the following demands:
+
+    Having a Player class - an instance of this class with that can communicate with other Player(s) (other instances of this class)
+
+    The use case for this task is as bellow:
+
+    1. create 2 players
+    2. one of the players should send a message to second player
+    3. when a player receives a message should send back a new message that contains the received message concatenated with the message counter that this player sent.
+    4. finalize the program after the initiator sent 10 messages and received back 10 messages
+    5. Show the complete message when game is over.
+
+    Pure Java as much as possible (no additional frameworks like spring, etc.)
+    Maven project with no jars.
+    Shell script to start the program.
